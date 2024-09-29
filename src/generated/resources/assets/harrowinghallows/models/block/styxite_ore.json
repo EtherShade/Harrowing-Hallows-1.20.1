@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "harrowinghallows:block/styxite_ore"
+  }
+}

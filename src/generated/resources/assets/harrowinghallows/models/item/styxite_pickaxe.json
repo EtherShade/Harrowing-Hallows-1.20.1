@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "harrowinghallows:item/styxite_pickaxe"
+  }
+}

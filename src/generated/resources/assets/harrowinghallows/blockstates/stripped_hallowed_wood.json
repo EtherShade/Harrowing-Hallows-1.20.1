@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "harrowinghallows:block/stripped_hallowed_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "harrowinghallows:block/stripped_hallowed_wood"
+    },
+    "axis=z": {
+      "model": "harrowinghallows:block/stripped_hallowed_wood_horizontal",
+      "x": 90
+    }
+  }
+}

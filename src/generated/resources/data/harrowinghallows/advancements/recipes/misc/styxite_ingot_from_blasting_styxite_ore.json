@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_styxite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "harrowinghallows:styxite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "harrowinghallows:styxite_ingot_from_blasting_styxite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_styxite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "harrowinghallows:styxite_ingot_from_blasting_styxite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

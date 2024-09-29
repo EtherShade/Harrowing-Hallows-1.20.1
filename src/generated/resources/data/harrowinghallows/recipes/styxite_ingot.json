@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "harrowinghallows:styxite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "harrowinghallows:styxite_ingot"
+  }
+}

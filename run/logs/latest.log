@@ -1,0 +1,40 @@
+[29Sep2024 16:12:12.678] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\ether\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, harrowinghallows, --all, --output, C:\Users\ether\Documents\Minecraft Mods\Harrowing Hallows 1.20.1\Harrowing-Hallows-1.20.1\src\generated\resources, --existing, C:\Users\ether\Documents\Minecraft Mods\Harrowing Hallows 1.20.1\Harrowing-Hallows-1.20.1\src\main\resources]
+[29Sep2024 16:12:12.683] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[29Sep2024 16:12:12.794] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[29Sep2024 16:12:12.840] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/ether/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[29Sep2024 16:12:13.080] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ether\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[29Sep2024 16:12:13.082] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ether\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[29Sep2024 16:12:13.084] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ether\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[29Sep2024 16:12:13.086] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\ether\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[29Sep2024 16:12:13.166] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29Sep2024 16:12:14.211] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Sep2024 16:12:14.217] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\ether\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, harrowinghallows, --all, --output, C:\Users\ether\Documents\Minecraft Mods\Harrowing Hallows 1.20.1\Harrowing-Hallows-1.20.1\src\generated\resources, --existing, C:\Users\ether\Documents\Minecraft Mods\Harrowing Hallows 1.20.1\Harrowing-Hallows-1.20.1\src\main\resources]
+[29Sep2024 16:12:14.480] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\ether\Documents\Minecraft Mods\Harrowing Hallows 1.20.1\Harrowing-Hallows-1.20.1\build\createSrgToMcp\output.srg
+[29Sep2024 16:12:14.481] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\ether\Documents\Minecraft Mods\Harrowing Hallows 1.20.1\Harrowing-Hallows-1.20.1\build\createSrgToMcp\output.srg
+[29Sep2024 16:12:14.760] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [harrowinghallows]
+[29Sep2024 16:12:18.163] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[29Sep2024 16:12:18.164] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[29Sep2024 16:12:18.188] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[29Sep2024 16:12:18.189] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[29Sep2024 16:12:18.189] [modloading-worker-0/INFO] [terrablender/]: Registered region harrowinghallows:overworld to index 1 for type OVERWORLD
+[29Sep2024 16:12:18.334] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[29Sep2024 16:12:18.340] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.294 ms
+[29Sep2024 16:12:18.571] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ether/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[29Sep2024 16:12:18.571] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ether/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[29Sep2024 16:12:18.722] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[29Sep2024 16:12:18.755] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 31 ms
+[29Sep2024 16:12:18.755] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[29Sep2024 16:12:18.792] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 36 ms
+[29Sep2024 16:12:18.792] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: harrowinghallows
+[29Sep2024 16:12:18.902] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: harrowinghallows finished after 109 ms
+[29Sep2024 16:12:18.902] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: harrowinghallows
+[29Sep2024 16:12:18.917] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: harrowinghallows finished after 16 ms
+[29Sep2024 16:12:18.918] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id harrowinghallows
+[29Sep2024 16:12:18.929] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id harrowinghallows finished after 10 ms
+[29Sep2024 16:12:18.929] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id harrowinghallows
+[29Sep2024 16:12:18.930] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id harrowinghallows finished after 1 ms
+[29Sep2024 16:12:18.930] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : harrowinghallows
+[29Sep2024 16:12:18.931] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : harrowinghallows finished after 1 ms
+[29Sep2024 16:12:18.931] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id harrowinghallows
+[29Sep2024 16:12:18.932] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id harrowinghallows finished after 0 ms
+[29Sep2024 16:12:18.932] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries

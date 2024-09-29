@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "harrowinghallows:block/stripped_hallowed_log",
+    "side": "harrowinghallows:block/stripped_hallowed_log"
+  }
+}
