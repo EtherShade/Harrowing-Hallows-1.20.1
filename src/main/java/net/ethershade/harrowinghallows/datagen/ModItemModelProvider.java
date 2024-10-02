@@ -45,11 +45,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STYXITE_INGOT);
         simpleItem(ModItems.STYXITE_NUGGET);
         simpleItem(ModItems.RAW_STYXITE);
+
         handheldItem(ModItems.STYXITE_SWORD);
         handheldItem(ModItems.STYXITE_PICKAXE);
         handheldItem(ModItems.STYXITE_AXE);
         handheldItem(ModItems.STYXITE_SHOVEL);
         handheldItem(ModItems.STYXITE_HOE);
+
         trimmedArmorItem(ModItems.STYXITE_HELMET);
         trimmedArmorItem(ModItems.STYXITE_CHESTPLATE);
         trimmedArmorItem(ModItems.STYXITE_LEGGINGS);

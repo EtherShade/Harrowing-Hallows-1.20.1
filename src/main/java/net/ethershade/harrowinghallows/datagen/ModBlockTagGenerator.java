@@ -20,7 +20,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.STYXITE_BLOCK.get(),
                         ModBlocks.RAW_STYXITE_BLOCK.get(),
@@ -30,17 +29,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_IRON_TOOL);
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
 
-        this.tag(BlockTags.NEEDS_STONE_TOOL);
-
-        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.STYXITE_BLOCK.get(), ModBlocks.RAW_STYXITE_BLOCK.get(), ModBlocks.STYXITE_ORE.get()
+                );
 
         this.tag(ModTags.Blocks.NEEDS_STYXITE_TOOL);
-
-        this.tag(BlockTags.FENCES);
-        this.tag(BlockTags.FENCE_GATES);
-        this.tag(BlockTags.WALLS);
 
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.HALLOWED_LOG.get())

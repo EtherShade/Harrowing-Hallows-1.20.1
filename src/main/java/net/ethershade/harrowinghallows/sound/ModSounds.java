@@ -13,6 +13,8 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, HarrowingHallows.MOD_ID);
 
+    public static final RegistryObject<SoundEvent> HALLOWED_FOREST_MUSIC = registerSoundEvents("hallowed_forest_music");
+
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(HarrowingHallows.MOD_ID, name)));

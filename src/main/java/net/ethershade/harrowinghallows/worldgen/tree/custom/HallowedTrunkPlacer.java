@@ -29,7 +29,7 @@ public class HallowedTrunkPlacer extends TrunkPlacer {
 
     @Override
     protected TrunkPlacerType<?> type() {
-        return ModTrunkPlacerTypes.HALLOWED_TRUNK_PLACER.get();
+        return ModTrunkPlacerTypes.PINE_TRUNK_PLACER.get();
     }
 
     @Override

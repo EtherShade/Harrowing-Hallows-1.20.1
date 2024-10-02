@@ -1,6 +1,7 @@
 package net.ethershade.harrowinghallows.worldgen.biome;
 
 import net.ethershade.harrowinghallows.HarrowingHallows;
+import net.ethershade.harrowinghallows.sound.ModSounds;
 import net.ethershade.harrowinghallows.worldgen.ModPlacedFeatures;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
@@ -15,11 +16,11 @@ import net.minecraft.world.level.biome.*;
 import net.minecraft.world.level.levelgen.GenerationStep;
 
 public class ModBiomes {
-    public static final ResourceKey<Biome> HALLOWED_FOREST = ResourceKey.create(Registries.BIOME,
-            new ResourceLocation(HarrowingHallows.MOD_ID, "hallowed_forest"));
+    public static final ResourceKey<Biome> HALLOWED_FOREST_BIOME = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(HarrowingHallows.MOD_ID, "hallowed_forest_biome"));
 
     public static void boostrap(BootstapContext<Biome> context) {
-        context.register(HALLOWED_FOREST, hallowedForest(context));
+        context.register(HALLOWED_FOREST_BIOME, testBiome(context));
     }
 
     public static void globalOverworldGeneration(BiomeGenerationSettings.Builder builder) {
@@ -31,7 +32,7 @@ public class ModBiomes {
         BiomeDefaultFeatures.addSurfaceFreezing(builder);
     }
 
-    public static Biome hallowedForest(BootstapContext<Biome> context) {
+    public static Biome testBiome(BootstapContext<Biome> context) {
         MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
 
         spawnBuilder.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.WOLF, 5, 4, 4));
@@ -69,8 +70,7 @@ public class ModBiomes {
                         .foliageColorOverride(0xd203fc)
                         .fogColor(0x22a1e6)
                         .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
-                        .backgroundMusic(Musics.createGameMusic(null))
-                        .build())
+                        .backgroundMusic(Musics.createGameMusic(ModSounds.HALLOWED_FOREST_MUSIC.getHolder().get())).build())
                 .build();
     }
 }

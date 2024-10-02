@@ -1,3 +1,7 @@
 {
-  "values": []
+  "values": [
+    "harrowinghallows:styxite_block",
+    "harrowinghallows:raw_styxite_block",
+    "harrowinghallows:styxite_ore"
+  ]
 }

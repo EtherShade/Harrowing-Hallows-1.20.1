@@ -1,1 +1,10 @@
-// 1.20.1	2024-09-29T16:07:50.8747715	Registries
+// 1.20.1	2024-10-02T12:30:37.4341926	Registries
+6ea8c23ef96cc75c43beaec29162062ddc2939cd data/harrowinghallows/dimension/hallowsim.json
+e241e971aacde6f4d0236c622c99d6c9caeb981e data/harrowinghallows/dimension_type/hallowsdim_type.json
+e170ed2535cd7bde9d72502e04200b1733c93613 data/harrowinghallows/forge/biome_modifier/add_styxite_ore.json
+29306d64e895d011503cd67eedfd4d8ad6e09812 data/harrowinghallows/forge/biome_modifier/add_tree_hallowed.json
+107ae2b10db2049f9b814bf7367256014afae520 data/harrowinghallows/worldgen/biome/hallowed_forest_biome.json
+058c336db751f113e8d5ef85aff01f8824b89e65 data/harrowinghallows/worldgen/configured_feature/hallowed.json
+d1737991ec481884d50f854aa823413182d0fb75 data/harrowinghallows/worldgen/configured_feature/styxite_ore.json
+e0b779ae26690018d24a2e747c5b300469b0eee0 data/harrowinghallows/worldgen/placed_feature/hallowed_placed.json
+0130de89775df0497d973bdb2e9dbd86c1a6c00f data/harrowinghallows/worldgen/placed_feature/styxite_ore_placed.json

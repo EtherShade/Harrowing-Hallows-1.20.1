@@ -1,3 +1,10 @@
 {
-
+  "hallowed_forest_music": {
+    "sounds": [
+      {
+        "name": "harrowinghallows:hallowed_forest_music",
+        "stream": true
+      }
+    ]
+  }
 }

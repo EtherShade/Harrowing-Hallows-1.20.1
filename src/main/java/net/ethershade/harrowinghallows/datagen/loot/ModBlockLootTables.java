@@ -4,8 +4,10 @@ import net.ethershade.harrowinghallows.block.ModBlocks;
 import net.ethershade.harrowinghallows.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.LootTable;
@@ -28,6 +30,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.STYXITE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_STYXITE_BLOCK.get());
+
         this.add(ModBlocks.STYXITE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.STYXITE_ORE.get(), ModItems.RAW_STYXITE.get()));
 
@@ -47,7 +50,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.HALLOWED_WALL_HANGING_SIGN.get(), block ->
                 createSingleItemTable(ModItems.HALLOWED_HANGING_SIGN.get()));
         this.dropSelf(ModBlocks.HALLOWED_SAPLING.get());
-
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

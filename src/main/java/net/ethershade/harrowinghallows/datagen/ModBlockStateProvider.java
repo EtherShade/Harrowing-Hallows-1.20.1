@@ -2,6 +2,7 @@ package net.ethershade.harrowinghallows.datagen;
 
 import net.ethershade.harrowinghallows.HarrowingHallows;
 import net.ethershade.harrowinghallows.block.ModBlocks;
+import net.minecraft.client.model.Model;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
@@ -24,7 +25,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.STYXITE_BLOCK);
         blockWithItem(ModBlocks.RAW_STYXITE_BLOCK);
-
         blockWithItem(ModBlocks.STYXITE_ORE);
 
         logBlock(((RotatedPillarBlock) ModBlocks.HALLOWED_LOG.get()));

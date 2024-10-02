@@ -23,7 +23,7 @@ import java.util.OptionalLong;
 
 public class ModDimensions {
     public static final ResourceKey<LevelStem> HALLOWSDIM_KEY = ResourceKey.create(Registries.LEVEL_STEM,
-            new ResourceLocation(HarrowingHallows.MOD_ID, "hallowsdim"));
+            new ResourceLocation(HarrowingHallows.MOD_ID, "hallowsim"));
     public static final ResourceKey<Level> HALLOWSDIM_LEVEL_KEY = ResourceKey.create(Registries.DIMENSION,
             new ResourceLocation(HarrowingHallows.MOD_ID, "hallowsdim"));
     public static final ResourceKey<DimensionType> HALLOWS_DIM_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
@@ -38,7 +38,7 @@ public class ModDimensions {
                 false, // ultraWarm
                 false, // natural
                 1.0, // coordinateScale
-                false, // bedWorks
+                true, // bedWorks
                 false, // respawnAnchorWorks
                 0, // minY
                 256, // height
@@ -55,13 +55,13 @@ public class ModDimensions {
         HolderGetter<NoiseGeneratorSettings> noiseGenSettings = context.lookup(Registries.NOISE_SETTINGS);
 
         NoiseBasedChunkGenerator wrappedChunkGenerator = new NoiseBasedChunkGenerator(
-                new FixedBiomeSource(biomeRegistry.getOrThrow(ModBiomes.HALLOWED_FOREST)),
+                new FixedBiomeSource(biomeRegistry.getOrThrow(ModBiomes.HALLOWED_FOREST_BIOME)),
                 noiseGenSettings.getOrThrow(NoiseGeneratorSettings.AMPLIFIED));
 
         NoiseBasedChunkGenerator noiseBasedChunkGenerator = new NoiseBasedChunkGenerator(
                 MultiNoiseBiomeSource.createFromList(
                         new Climate.ParameterList<>(List.of(Pair.of(
-                                        Climate.parameters(0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(ModBiomes.HALLOWED_FOREST)),
+                                        Climate.parameters(0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(ModBiomes.HALLOWED_FOREST_BIOME)),
                                 Pair.of(
                                         Climate.parameters(0.1F, 0.2F, 0.0F, 0.2F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.BIRCH_FOREST)),
                                 Pair.of(

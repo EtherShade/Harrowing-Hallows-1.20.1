@@ -12,8 +12,8 @@ public class ModTrunkPlacerTypes {
     public static final DeferredRegister<TrunkPlacerType<?>> TRUNK_PLACER =
             DeferredRegister.create(Registries.TRUNK_PLACER_TYPE, HarrowingHallows.MOD_ID);
 
-    public static final RegistryObject<TrunkPlacerType<HallowedTrunkPlacer>> HALLOWED_TRUNK_PLACER =
-            TRUNK_PLACER.register("hallowed_trunk_placer", () -> new TrunkPlacerType<>(HallowedTrunkPlacer.CODEC));
+    public static final RegistryObject<TrunkPlacerType<HallowedTrunkPlacer>> PINE_TRUNK_PLACER =
+            TRUNK_PLACER.register("pine_trunk_placer", () -> new TrunkPlacerType<>(HallowedTrunkPlacer.CODEC));
 
     public static void register(IEventBus eventBus) {
         TRUNK_PLACER.register(eventBus);
