@@ -50,6 +50,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.HALLOWED_WALL_HANGING_SIGN.get(), block ->
                 createSingleItemTable(ModItems.HALLOWED_HANGING_SIGN.get()));
         this.dropSelf(ModBlocks.HALLOWED_SAPLING.get());
+
+        this.dropSelf(ModBlocks.HALLOWSTONE.get());
+
+        this.dropSelf(ModBlocks.HALLOWED_PORTAL.get());
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

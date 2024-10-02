@@ -39,16 +39,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.HALLOWED_WOOD);
         blockItem(ModBlocks.STRIPPED_HALLOWED_LOG);
         blockItem(ModBlocks.STRIPPED_HALLOWED_WOOD);
-
         blockWithItem(ModBlocks.HALLOWED_PLANKS);
-
         leavesBlock(ModBlocks.HALLOWED_LEAVES);
-
         signBlock(((StandingSignBlock) ModBlocks.HALLOWED_SIGN.get()), ((WallSignBlock) ModBlocks.HALLOWED_WALL_SIGN.get()),
                 blockTexture(ModBlocks.HALLOWED_PLANKS.get()));
-
         hangingSignBlock(ModBlocks.HALLOWED_HANGING_SIGN.get(), ModBlocks.HALLOWED_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.HALLOWED_PLANKS.get()));
         saplingBlock(ModBlocks.HALLOWED_SAPLING);
+
+        blockWithItem(ModBlocks.HALLOWSTONE);
 
         blockWithItem(ModBlocks.HALLOWED_PORTAL);
     }

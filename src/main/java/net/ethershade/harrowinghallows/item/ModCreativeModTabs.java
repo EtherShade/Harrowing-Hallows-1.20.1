@@ -47,6 +47,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.HALLOWED_LEAVES.get());
                         pOutput.accept(ModBlocks.HALLOWED_SAPLING.get());
 
+                        pOutput.accept(ModBlocks.HALLOWSTONE.get());
+
                         pOutput.accept(ModBlocks.HALLOWED_PORTAL.get());
 
                     })

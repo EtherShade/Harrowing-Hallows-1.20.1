@@ -23,7 +23,7 @@ import java.util.OptionalLong;
 
 public class ModDimensions {
     public static final ResourceKey<LevelStem> HALLOWSDIM_KEY = ResourceKey.create(Registries.LEVEL_STEM,
-            new ResourceLocation(HarrowingHallows.MOD_ID, "hallowsim"));
+            new ResourceLocation(HarrowingHallows.MOD_ID, "hallowsdim"));
     public static final ResourceKey<Level> HALLOWSDIM_LEVEL_KEY = ResourceKey.create(Registries.DIMENSION,
             new ResourceLocation(HarrowingHallows.MOD_ID, "hallowsdim"));
     public static final ResourceKey<DimensionType> HALLOWS_DIM_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
@@ -46,7 +46,7 @@ public class ModDimensions {
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
                 BuiltinDimensionTypes.OVERWORLD_EFFECTS, // effectsLocation
                 1.0f, // ambientLight
-                new DimensionType.MonsterSettings(false, false, ConstantInt.of(0), 0)));
+                new DimensionType.MonsterSettings(true, false, ConstantInt.of(0), 0)));
     }
 
     public static void bootstrapStem(BootstapContext<LevelStem> context) {

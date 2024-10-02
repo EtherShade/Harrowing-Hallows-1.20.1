@@ -27,7 +27,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 );
 
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL);
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.HALLOWSTONE.get());
 
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -44,5 +45,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.PLANKS)
                 .add(ModBlocks.HALLOWED_PLANKS.get());
+
+        this.tag(ModTags.Blocks.HALLOWSTONE_ORE_REPLACEABLES)
+                .add(ModBlocks.HALLOWSTONE.get());
     }
 }

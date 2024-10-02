@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_STYXITE_TOOL = tag("needs_sapphire_tool");
+        public static final TagKey<Block> HALLOWSTONE_ORE_REPLACEABLES = tag("hallowstone_ore_replaceables");
 
 
         private static TagKey<Block> tag(String name) {

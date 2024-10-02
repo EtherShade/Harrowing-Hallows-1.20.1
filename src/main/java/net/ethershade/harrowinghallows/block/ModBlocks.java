@@ -86,8 +86,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> HALLOWED_SAPLING = registerBlock("hallowed_sapling",
             () -> new SaplingBlock(new HallowedTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
+    public static final RegistryObject<Block> HALLOWSTONE = registerBlock("hallowstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
     public static final RegistryObject<Block> HALLOWED_PORTAL = registerBlock("hallowed_portal",
-            () -> new ModPortalBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable().noOcclusion().noCollission()));
+            () -> new ModPortalBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

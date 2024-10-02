@@ -20,13 +20,9 @@ public class ModSurfaceRules {
 
         return SurfaceRules.sequence(
                 SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.HALLOWED_FOREST_BIOME),
-                                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, RAW_SAPPHIRE)),
-                        SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, SAPPHIRE)),
-
-
                 // Default to a grass and dirt surface
                 SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, grassSurface)
-        );
+        )));
     }
 
     private static SurfaceRules.RuleSource makeStateRule(Block block) {

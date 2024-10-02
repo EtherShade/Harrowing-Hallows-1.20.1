@@ -27,21 +27,19 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_STYXITE_ORE_KEY = registerKey("styxite_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> HALLOWS_STYXITE_ORE_KEY = registerKey("styxite_ore");
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> HALLOWED_KEY = registerKey("hallowed");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
-        RuleTest netherrackReplacables = new BlockMatchTest(Blocks.NETHERRACK);
-        RuleTest endReplaceables = new BlockMatchTest(Blocks.END_STONE);
 
-        List<OreConfiguration.TargetBlockState> overworldStyxiteOres = List.of(OreConfiguration.target(stoneReplaceable,
+        List<OreConfiguration.TargetBlockState> hallowsStyxiteOres = List.of(OreConfiguration.target(stoneReplaceable,
                 ModBlocks.STYXITE_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.STYXITE_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_STYXITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldStyxiteOres, 9));
+        register(context, HALLOWS_STYXITE_ORE_KEY, Feature.ORE, new OreConfiguration(hallowsStyxiteOres, 9));
 
         register(context, HALLOWED_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.HALLOWED_LOG.get()),
